@@ -5,6 +5,111 @@
   font-family: sans-serif;
   background-color: rgb(255, 154, 154);
 }
+/* ================= MEDIA ================= */
+
+/* 1200px */
+@media (max-width: 1200px) {
+  .h11 {
+    font-size: 38px;
+  }
+
+  .div1 {
+    width: 90%;
+  }
+
+  .div2 {
+    width: 100%;
+  }
+
+  .div2 p {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .red {
+    font-size: 17px;
+  }
+}
+
+/* 992px */
+@media (max-width: 992px) {
+  .h11 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .div1 {
+    width: 92%;
+  }
+
+  .div2 p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .div11 {
+    width: 90%;
+  }
+
+  .red {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+/* 768px */
+@media (max-width: 768px) {
+  .h11 {
+    font-size: 27px;
+  }
+
+  .div1 {
+    width: 94%;
+  }
+
+  .div2 p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .div11 {
+    width: 94%;
+  }
+
+  .red {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  br {
+    display: none;
+  }
+}
+
+/* 480px */
+@media (max-width: 480px) {
+  .h11 {
+    font-size: 22px;
+  }
+
+  .div1 {
+    width: 96%;
+  }
+
+  .div2 p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .div11 {
+    width: 96%;
+  }
+
+  .red {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+}
 .secc1 p {
   color: white;
   font-size: 25px;
