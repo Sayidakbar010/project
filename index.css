@@ -5,14 +5,10 @@
   font-family: sans-serif;
   background-color: rgb(255, 154, 154);
 }
-/* ================= MEDIA ================= */
-
-/* 1200px */
 @media (max-width: 1200px) {
   .H_1 {
     font-size: 35px;
   }
-
   .h2 {
     font-size: 25px;
   }
@@ -25,19 +21,15 @@
   .malumot2 p {
     font-size: 17px;
   }
-
   .rasmM img {
-    width: 400px;
     max-width: 100%;
   }
 }
 
-/* 992px */
 @media (max-width: 992px) {
   .H_1 {
     font-size: 30px;
   }
-
   .h2 {
     font-size: 23px;
   }
@@ -50,23 +42,18 @@
   .malumot2 {
     width: 90%;
   }
-
   .rasmM {
     width: 80%;
   }
-
   .rasmM img {
     width: 100%;
-    height: auto;
   }
 }
 
-/* 768px */
 @media (max-width: 768px) {
   .H_1 {
     font-size: 26px;
   }
-
   .h2 {
     font-size: 21px;
   }
@@ -79,32 +66,21 @@
   .malumot2 {
     width: 95%;
   }
-
   .malumot2 p {
     font-size: 16px;
-    line-height: 1.5;
   }
-
   .rasmM {
     width: 90%;
   }
-
   .rasmM img {
     width: 100%;
   }
-
-  .but1 {
-    padding: 12px 20px;
-    font-size: 16px;
-  }
 }
 
-/* 480px */
 @media (max-width: 480px) {
   .H_1 {
     font-size: 22px;
   }
-
   .h2 {
     font-size: 18px;
   }
@@ -117,11 +93,9 @@
   .malumot2 p {
     font-size: 14px;
   }
-
   .malumot1 {
     padding: 10px;
   }
-
   .rasmM {
     width: 100%;
   }
@@ -129,10 +103,6 @@
   .but1 {
     width: 90%;
     font-size: 14px;
-  }
-
-  br {
-    display: none;
   }
 }
 .H_1 {
