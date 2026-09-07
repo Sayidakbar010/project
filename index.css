@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: rgb(255, 154, 154);
+}
+.H_1 {
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+.h2 {
+  color: white;
+  text-align: center;
+}
+.homE {
+  margin-top: 30px;
+}
+.homE h2 {
+  padding-left: 50px;
+  color: white;
+}
+.malumot1 {
+  gap: 50px;
+  display: flex;
+  padding-left: 200px;
+  /* justify-content: center; */
+  padding-top: 50px;
+}
+
+.malumot2 p {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-top: 50px;
+}
+.rasmM img {
+  width: 550px;
+  height: 500px;
+}
+.qqq {
+  color: rgb(255, 76, 76);
+}
+.sec2 h2 {
+  color: white;
+  padding-left: 50px;
+  margin-top: 30px;
+}
+.sec2 {
+  height: 900px;
+  margin-top: 100px;
+}
+.but1 {
+  background: rgb(255, 76, 76);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.but1:hover {
+  background: rgb(242, 45, 78);
+  transform: translateY(-10px);
+}
+
+.but1:active {
+  transform: translateY(5px);
+  transform: scale(0.95);
+}
+.container {
+  display: flex;
+  margin-top: 200px;
+  justify-content: center;
+}

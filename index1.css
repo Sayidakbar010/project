@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: rgb(255, 154, 154);
+}
+.secc1 p {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-top: 50px;
+}
+.qqq {
+  color: rgb(255, 76, 76);
+}
+.div2 {
+  display: flex;
+  justify-content: center;
+}
+.h11 {
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.div11 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
